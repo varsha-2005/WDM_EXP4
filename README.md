@@ -21,6 +21,7 @@ Register No: 212222230166
 ```
 # read the data
 import pandas as pd
+import matplotlib.pyplot as plt
 visitor_df = pd.read_csv('/content/clustervisitor.csv')
 
 # Perform segmentation based on characteristics (e.g., age groups)
